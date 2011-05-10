@@ -28,7 +28,7 @@ need to make sure you have Bundler installed `(sudo) gem install bundler`.
 
 Start by cloning the application and running migrations
 
-    git clone # Add repository here
+    git clone git://github.com/emachnic/freeject.git
     
     bundle install
     
