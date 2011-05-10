@@ -5,7 +5,11 @@ gem 'rails', '3.1.0.beta1'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
+# Select which database to use
+# Can use different ones for different environments
 gem 'sqlite3'
+# gem 'mysql2'
+# gem 'pg'
 
 # Asset template engines
 gem 'sass'
@@ -14,14 +18,13 @@ gem 'uglifier'
 
 gem 'jquery-rails'
 
-# Use unicorn as the web server
-# gem 'unicorn'
-
-# Deploy with Capistrano
-# gem 'capistrano'
-
-# To use debugger
-# gem 'ruby-debug19', :require => 'ruby-debug'
+group :development, :test do
+  gem "rspec-rails", ">= 2.6.0.rc6" 
+  gem 'cucumber-rails'
+  gem 'webrat'
+  gem 'capybara'
+  gem 'database_cleaner'
+end
 
 group :test do
   # Pretty printed test output
