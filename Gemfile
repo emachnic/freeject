@@ -1,9 +1,9 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.0.beta1'
+#gem 'rails', '3.1.0.beta1'
 
 # Bundle edge Rails instead:
-# gem 'rails',     :git => 'git://github.com/rails/rails.git'
+gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 # Select which database to use
 # Can use different ones for different environments
@@ -15,15 +15,21 @@ gem 'sqlite3'
 gem 'sass'
 gem 'coffee-script'
 gem 'uglifier'
-
 gem 'jquery-rails'
+gem 'compass'
+
+# Authentication
+gem 'devise'
+gem "oa-oauth", :require => "omniauth/oauth"
 
 group :development, :test do
   gem "rspec-rails", ">= 2.6.0.rc6" 
-  gem 'cucumber-rails'
+  gem 'cucumber-rails', "~> 0.5.0.beta1"
   gem 'webrat'
-  gem 'capybara'
+  gem 'capybara', "~> 1.0.0.beta1"
+  gem 'launchy'
   gem 'database_cleaner'
+  gem 'factory_girl_rails'
 end
 
 group :test do

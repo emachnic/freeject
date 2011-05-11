@@ -1,0 +1,249 @@
+/* Not Just a Grid v1.0 (c) 2011 Al Redpath / Outrageous Creations! Licenced under an MIT Licence*/
+/* line 3, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+BODY {
+  font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+  font-size: 75%;
+  font-weight: normal;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  color: #323232;
+}
+
+/* line 11, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+html > body {
+  font-size: 14px;
+}
+
+/* line 14, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #000;
+  font-family: 'Droid Sans', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+/* line 19, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+p, ol, ul, blockquote, code, dl, dt, dd {
+  color: #333;
+  font-size: 1em;
+  font-weight: normal;
+  letter-spacing: .02em;
+  line-height: 1.5em;
+}
+
+/* line 26, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+h1 {
+  font-size: 3em;
+  line-height: 1em;
+  letter-spacing: -0.03em;
+  margin: 0px 0px .5em 0px;
+}
+
+/* line 32, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+h2 {
+  font-size: 2.7em;
+  line-height: 1.17em;
+  letter-spacing: -0.03em;
+  margin: 0px 0px .5em 0px;
+}
+
+/* line 38, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+h3 {
+  font-size: 2.4em;
+  line-height: 1.38em;
+  letter-spacing: -0.03em;
+  margin: 0px 0px .5em 0px;
+}
+
+/* line 44, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+h4 {
+  font-size: 2.1em;
+  line-height: 1.65em;
+  letter-spacing: -0.03em;
+  margin: 0px 0px 0.5em 0px;
+}
+
+/* line 50, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+h5 {
+  font-size: 1.8em;
+  line-height: 2em;
+  letter-spacing: -0.03em;
+  margin: 0px 0px .5em 0px;
+}
+
+/* line 56, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+h6 {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  letter-spacing: -0.03em;
+  margin: 0px 0px .5em 0px;
+}
+
+/* line 62, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+p {
+  margin: 0 0 1.5em 1.5em;
+}
+
+/* line 65, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+blockquote {
+  margin: 10px 45px 15px 45px;
+  font-style: italic;
+  quotes: "\201C""\201D""\2018""\2019";
+  border-bottom: 2px solid #444;
+  border-top: 2px solid #444;
+}
+/* line 71, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+blockquote:before {
+  font-size: 24px;
+  content: open-quote;
+}
+/* line 74, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+blockquote:after {
+  font-size: 24px;
+  content: close-quote;
+}
+
+/* line 78, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 81, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+em, cite, dfn, address {
+  font-style: italic;
+}
+
+/* line 84, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+abbr[title], acronym[title], dfn[title] {
+  cursor: help;
+  border-bottom: 1px dotted blue;
+}
+
+/* line 88, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+acronym {
+  font-variant: small-caps;
+}
+
+/* line 91, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+address {
+  margin: 0px 0px 1.5em 2.5em;
+}
+
+/* line 94, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* line 97, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+ins {
+  border-bottom: 1px dotted green;
+  text-decoration: none;
+}
+
+/* line 101, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+ul, ol {
+  margin: 0 0 1em 3em;
+  list-style: disc;
+  list-style-position: outside;
+}
+
+/* line 106, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+li {
+  padding: 0px 0px 0px .25em;
+}
+
+/* line 109, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+ol {
+  list-style: decimal;
+}
+/* line 111, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+ol.roman {
+  list-style: lower-roman;
+}
+/* line 113, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+ol.alpha {
+  list-style: lower-alpha;
+}
+/* line 115, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+ol.upperalpha {
+  list-style: upper-alpha;
+}
+
+/* line 118, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+dl {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 122, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+dt {
+  margin: 0 0 0 1.5em;
+  font-weight: bold;
+}
+
+/* line 126, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+dd {
+  margin: 0 0 0 3em;
+}
+
+/* line 129, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+sup, sub {
+  font-size: 75%;
+}
+
+/* line 132, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+sup {
+  vertical-align: super;
+}
+
+/* line 135, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+sub {
+  vertical-align: sub;
+}
+
+/* line 138, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+a {
+  color: #1475a2;
+  text-decoration: none;
+}
+/* line 141, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+a:link, a:visited {
+  color: #1475a2;
+  text-decoration: none;
+}
+/* line 144, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+a:hover, a:active {
+  color: #789b10;
+  text-decoration: none;
+}
+
+/* line 148, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+hr {
+  height: 1px;
+  color: #444;
+  background-color: #444;
+  clear: both;
+  margin: 20px 30px 20px 30px;
+  border: none;
+}
+
+/* line 156, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+code, pre, var, samp {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* line 159, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+small {
+  font-size: 80%;
+  vertical-align: middle;
+}
+
+/* line 163, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+big {
+  font-size: 120%;
+  vertical-align: middle;
+}
+
+/* line 167, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/type.scss */
+.typegrid {
+  background: url(../images/notjustagrid/misc/typegrid.gif) top left;
+}
