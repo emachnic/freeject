@@ -23,7 +23,7 @@ gem 'devise'
 gem "oa-oauth", :require => "omniauth/oauth"
 
 group :development, :test do
-  gem "rspec-rails", ">= 2.6.0.rc6" 
+  gem "rspec-rails", ">= 2.6.0" 
   gem 'cucumber-rails', "~> 0.5.0.beta1"
   gem 'webrat'
   gem 'capybara', "~> 1.0.0.beta1"
