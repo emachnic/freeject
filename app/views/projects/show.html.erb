@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= project.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= project.description %>
+</p>
+
+<p>
+  <%= link_to "Add Story", new_project_story_path(project) %>
+</p>
+
+<div id="backlog">
+  <%= project.stories.each do |s| %>
+    <%= s.title %>
+  <% end %>
+</div>
+
+
+<%= link_to 'Edit', edit_project_path(project) %> |
+<%= link_to 'Back', projects_path %>

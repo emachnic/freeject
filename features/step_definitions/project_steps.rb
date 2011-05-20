@@ -12,3 +12,24 @@ When /^I go through the project creation process$/ do
   fill_in "Name", with: "My First Project"
   click_button "Create Project"
 end
+
+Given /^a project "([^"]*)"$/ do |project|
+  @project = Factory(:project, name: project)
+end
+
+When /^I add a user story with title "([^"]*)"$/ do |title|
+  click_link "Add Story"
+  fill_in "Story Title", with: title
+  select "Feature", from: "Story Type"
+  fill_in "Description", with: "User story description"
+  click_button "Create Story"
+end
+
+When /^the story name$/ do
+  @story = Story.last
+  @story.name
+end
+
+When /^the backlog$/ do
+  #backlog
+end

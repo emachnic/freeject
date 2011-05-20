@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110512152646) do
+ActiveRecord::Schema.define(:version => 20110518023431) do
 
   create_table "projects", :force => true do |t|
     t.string   "name",        :limit => 50, :null => false
@@ -20,6 +20,17 @@ ActiveRecord::Schema.define(:version => 20110512152646) do
   end
 
   add_index "projects", ["name"], :name => "index_projects_on_name"
+
+  create_table "stories", :force => true do |t|
+    t.string   "title"
+    t.string   "story_type"
+    t.text     "description"
+    t.integer  "project_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "stories", ["title"], :name => "index_stories_on_title"
 
   create_table "users", :force => true do |t|
     t.string   "email",                                 :default => "", :null => false
