@@ -195,6 +195,7 @@ DEPENDENCIES
   database_cleaner
   decent_exposure
   devise
+  execjs
   factory_girl_rails
   formtastic
   jquery-rails

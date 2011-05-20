@@ -17,6 +17,8 @@ gem 'coffee-script'
 gem 'uglifier'
 gem 'jquery-rails'
 gem 'formtastic'
+
+gem 'execjs'
 #gem 'client_side_validations'
 
 # Authentication
