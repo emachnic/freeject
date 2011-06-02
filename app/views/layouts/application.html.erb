@@ -8,14 +8,16 @@
   </head>
   <body>
     <div id='container'>
-      <header class='full'>
-        <%= render 'layouts/header' %>
-        <% if notice %>
-          <p class="success"><%= notice %></p>
-        <% elsif alert %>
-          <p class="error"><%= alert %></p>
-        <% end %>
-      </header>
+      <% if current_user %>
+        <header class='full'>
+          <%= render 'layouts/header' %>
+          <% if notice %>
+            <p class="success"><%= notice %></p>
+          <% elsif alert %>
+            <p class="error"><%= alert %></p>
+          <% end %>
+        </header>
+      <% end %>
       <%= yield %>
     </div>
   </body>

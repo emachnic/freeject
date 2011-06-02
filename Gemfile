@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.0.beta1'
+gem 'rails', '3.1.0.rc1'
 
 # Bundle edge Rails instead:
 #gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -28,7 +28,7 @@ gem "oa-oauth", :require => "omniauth/oauth"
 gem 'decent_exposure'
 
 group :development, :test do
-  gem "rspec-rails", ">= 2.6.0" 
+  gem "rspec-rails", "~> 2.6.1.beta1" 
   gem 'cucumber-rails', "~> 0.5.0.beta1"
   gem 'capybara', "~> 1.0.0.beta1"
   gem 'launchy'
