@@ -26,9 +26,9 @@
       </section>
       <section class='obj_left last' id='right_side'>
         <% if notice %>
-          <p class="success"><%= notice %></p>
+          <p class="success fade"><%= notice %></p>
         <% elsif alert %>
-          <p class='error'><%= alert %></p>
+          <p class='error fade'><%= alert %></p>
         <% end %>
         <%= yield %>
       </section>
