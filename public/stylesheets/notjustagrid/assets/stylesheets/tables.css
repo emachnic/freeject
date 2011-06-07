@@ -1,0 +1,165 @@
+/* Not Just a Grid v1.0 (c) 2011 Al Redpath / Outrageous Creations! Licenced under an MIT Licence*/
+/* ---------------------------------------------------------------------------- */
+/* Plain Table ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- */
+/* line 7, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/tables.scss */
+table.plain {
+  color: #000;
+  font: 11px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  border-spacing: 1px;
+  border-collapse: collapse;
+}
+/* line 13, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/tables.scss */
+table.plain caption {
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: right;
+  margin: 0px 10px 0px 0px;
+  padding: 0px;
+  color: #444;
+  caption-side: bottom;
+}
+/* line 23, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/tables.scss */
+table.plain td, table.plain th {
+  padding: 4px 6px 4px 6px;
+  border: 1px solid #bbb;
+}
+/* line 26, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/tables.scss */
+table.plain thead {
+  color: #444;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+}
+/* line 32, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/tables.scss */
+table.plain thead th, table.plain thead td {
+  padding: 6px;
+}
+/* line 34, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/tables.scss */
+table.plain thead tr {
+  background: #eeeeee url(notjustagrid/misc/transoverlay-mattesoft.png) repeat-x;
+}
+/* line 36, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/tables.scss */
+table.plain tfoot {
+  font-size: 10px;
+}
+/* line 37, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/tables.scss */
+table.plain tfoot tr {
+  background: #eeeeee url(notjustagrid/misc/transoverlay-mattesoft.png) repeat-x;
+}
+/* line 40, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/tables.scss */
+table.plain tbody tr th {
+  text-align: right;
+  font-weight: bold;
+  background: #eeeeee url(notjustagrid/misc/greycorner-even.gif) top left no-repeat;
+}
+/* line 44, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/tables.scss */
+table.datalist {
+  color: #000;
+  font: 11px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  border-spacing: 1px;
+  border-collapse: collapse;
+}
+/* line 50, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/tables.scss */
+table.datalist caption {
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: right;
+  margin: 0px 10px 0px 0px;
+  padding: 0px;
+  color: #444;
+  caption-side: bottom;
+}
+/* line 60, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/tables.scss */
+table.datalist td, table.datalist th {
+  padding: 4px 6px 4px 6px;
+  border: 1px solid #bbb;
+}
+/* line 63, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/tables.scss */
+table.datalist thead {
+  color: #444;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+}
+/* line 69, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/tables.scss */
+table.datalist thead th, table.datalist thead td {
+  padding: 6px;
+}
+/* line 71, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/tables.scss */
+table.datalist thead tr {
+  background: #eeeeee url(notjustagrid/misc/transoverlay-matte.png) repeat-x;
+}
+/* line 74, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/tables.scss */
+table.datalist tfoot tr {
+  background: #eeeeee url(notjustagrid/misc/transoverlay-matte.png) repeat-x;
+}
+/* line 76, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/tables.scss */
+table.datalist tfoot td, table.datalist tfoot th {
+  font-size: 10px;
+}
+/* line 79, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/tables.scss */
+table.datalist tbody tr th {
+  text-align: right;
+  background: url(notjustagrid/misc/greycorner-even.gif) top left no-repeat;
+  /* Background image for browser which don't support nth-child */
+}
+/* line 83, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/tables.scss */
+table.datalist tbody tr:hover {
+  background-color: #dcdcdc;
+}
+/* line 85, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/tables.scss */
+table.datalist tbody tr:nth-child(odd) {
+  background-color: #e6e6e6;
+}
+/* line 87, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/tables.scss */
+table.datalist tbody tr:nth-child(even) {
+  background-color: #eee;
+}
+/* line 89, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/tables.scss */
+table.datalist tbody tr:nth-child(odd):hover {
+  background-color: #dcdcdc;
+}
+/* line 91, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/tables.scss */
+table.datalist tbody tr:nth-child(even):hover {
+  background-color: #d5d5d5;
+}
+/* line 93, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/tables.scss */
+table.datalist tbody tr:nth-child(odd) th {
+  background: url(notjustagrid/misc/colourcorner-even.gif) top left no-repeat;
+}
+/* line 95, ../../../../../app/assets/stylesheets/notjustagrid/assets/stylesheets/tables.scss */
+table.datalist tbody tr:nth-child(even) th {
+  background: url(notjustagrid/misc/colourcorner-odd.gif) top left no-repeat;
+}
+
+/* ----- */
+/* thead */
+/* ----- */
+/* ----- */
+/* tfoot */
+/* ----- */
+/* ----- */
+/* tbody */
+/* ----- */
+/* ---------------------------------------------------------------------------- */
+/* Datalist Table ------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- */
+/* ----- */
+/* thead */
+/* ----- */
+/* ----- */
+/* tfoot */
+/* ----- */
+/* ----- */
+/* tbody */
+/* ----- */
+/* Hover colour for Internet Explorer and other browsers which don't support nth-child */

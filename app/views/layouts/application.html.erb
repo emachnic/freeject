@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Freeject</title>
-  <%= stylesheet_link_tag    "application" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-
-<%= yield %>
-
-</body>
+  <head>
+    <title>Freeject</title>
+    <%= stylesheet_link_tag    "application" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <div id='container'>
+      <section class='obj_left first' id='left_side'>
+        <h1>freeject</h1>
+        <p class='left_margin_10'>
+          <% if current_user %>
+            <%= current_user.username %>
+            |
+            <%= link_to "Logout", destroy_user_session_path %>
+          <% end %>
+        </p>
+        <nav>
+          <ul>
+            <li><%= link_to "Dashboard", root_path, class: active_if?("pages") %></li>
+            <li><%= link_to "Projects", projects_path, class: active_if?("projects") %></li>
+          </ul>
+        </nav>
+      </section>
+      <section class='obj_left last' id='right_side'>
+        <% if notice %>
+          <p class="success"><%= notice %></p>
+        <% elsif alert %>
+          <p class='error'><%= alert %></p>
+        <% end %>
+        <%= yield %>
+      </section>
+      <div class="clear"></div>
+    </div>
+  </body>
 </html>

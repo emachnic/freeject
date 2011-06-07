@@ -1,4 +1,5 @@
-# Freeject
+# Freeject [![Build Status](http://travis-ci.org/emachnic/freeject.png)](http://travis-ci.org/emachnic/freeject)
+
 
 ***
 
