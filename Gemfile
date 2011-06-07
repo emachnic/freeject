@@ -7,7 +7,6 @@ gem 'rails', '3.1.0.rc1'
 
 # Select which database to use
 # Can use different ones for different environments
-gem 'sqlite3'
 # gem 'mysql2'
 # gem 'pg'
 
@@ -28,6 +27,7 @@ gem "oa-oauth", :require => "omniauth/oauth"
 gem 'decent_exposure'
 
 group :development, :test do
+  gem 'sqlite3'
   gem "rspec-rails", "~> 2.6.1.beta1" 
   gem 'cucumber-rails', "~> 0.5.0.beta1"
   gem 'capybara', "~> 1.0.0.beta1"
@@ -39,4 +39,8 @@ end
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
+end
+
+group :production do
+  gem 'mysql2'
 end
