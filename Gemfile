@@ -17,6 +17,7 @@ gem 'uglifier'
 gem 'jquery-rails'
 gem 'formtastic'
 
+gem 'redis'
 gem 'execjs'
 #gem 'client_side_validations'
 
