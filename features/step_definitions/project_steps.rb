@@ -33,3 +33,11 @@ end
 When /^the backlog$/ do
   #backlog
 end
+
+When /^I should (not )?see a "([^"]*)" message$/ do |negate, message_type|
+  if negate
+    page.should_not have_selector(".#{message_type}")
+  else
+    page.should have_selector(".#{message_type}")
+  end
+end

@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.0.rc2'
+gem 'rails', '3.1.0.rc4'
 
 # Bundle edge Rails instead:
 #gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -45,4 +45,5 @@ end
 group :production do
   gem 'mysql2'
   #gem 'pg'
+  gem 'therubyracer'
 end

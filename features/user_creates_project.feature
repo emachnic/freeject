@@ -8,4 +8,5 @@ Feature: User creates a Project
     Given an authenticated user
     And I am on the dashboard page
     When I go through the project creation process
-    Then I should see "Project was successfully created."
+    Then I should see a "success" message
+    And I should not see a "error" message
