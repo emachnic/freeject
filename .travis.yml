@@ -1,4 +1,6 @@
 rvm:
   - 1.9.2
 
-script: "bundle exec rake db:migrate test"
+script: 
+  - "bundle exec rake db:migrate test"
+  - "bundle exec rake"
