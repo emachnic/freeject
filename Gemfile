@@ -43,6 +43,6 @@ group :test do
 end
 
 group :production do
-  #gem 'mysql2'
-  gem 'pg'
+  gem 'mysql2'
+  #gem 'pg'
 end
