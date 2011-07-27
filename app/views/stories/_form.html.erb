@@ -1,7 +1,7 @@
 <%= semantic_form_for [@project, @story] do |f| %>
   <%= f.inputs do %>
-    <%= f.input :title, label: "Story Title" %>
-    <%= f.input :story_type, label: "Story Type", as: "select", collection: ["Feature", "Bug", "Release"] %>
+    <%= f.input :title, :label => "Story Title" %>
+    <%= f.input :story_type, :label => "Story Type", :as => "select", :collection => ["Feature", "Bug", "Release"] %>
     <%= f.input :description %>
   <% end %>
   <%= f.buttons :commit %>

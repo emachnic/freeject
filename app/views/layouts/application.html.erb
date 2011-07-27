@@ -19,8 +19,8 @@
         </p>
         <nav>
           <ul>
-            <li><%= link_to "Dashboard", root_path, class: active_if?("pages") %></li>
-            <li><%= link_to "Projects", projects_path, class: active_if?("projects") %></li>
+            <li><%= link_to "Dashboard", root_path, :class => active_if?("pages") %></li>
+            <li><%= link_to "Projects", projects_path, :class => active_if?("projects") %></li>
           </ul>
         </nav>
       </section>

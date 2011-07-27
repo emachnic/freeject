@@ -11,7 +11,7 @@ class StoriesController < ApplicationController
       flash[:notice] = "Successfully added story to project."
       redirect_to project_path(@project)
     else
-      render action: 'new'
+      render :action => 'new'
     end
   end
   

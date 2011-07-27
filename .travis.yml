@@ -1,6 +1,7 @@
 rvm:
   - 1.9.2
+  - rbx-2.0
 
 script: 
-  - "bundle exec rake db:migrate test"
+  - "bundle exec rake db:drop db:create db:migrate test"
   - "bundle exec rake"

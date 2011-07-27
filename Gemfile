@@ -1,7 +1,8 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.1.0.rc4'
-
+gem 'tzinfo', '~> 0.3.29'
+gem 'rdoc', '~> 3.8'
 # Bundle edge Rails instead:
 #gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
@@ -11,11 +12,13 @@ gem 'rails', '3.1.0.rc4'
 # gem 'pg'
 
 # Asset template engines
+gem 'haml'
 gem 'sass'
 gem 'coffee-script'
 gem 'uglifier'
 gem 'jquery-rails'
 gem 'formtastic'
+gem 'navigasmic'
 
 gem 'redis'
 gem 'execjs'
@@ -35,6 +38,16 @@ group :development, :test do
   gem 'launchy'
   gem 'database_cleaner'
   gem 'factory_girl_rails'
+  gem 'guard'
+  gem 'rb-fsevent'
+  gem 'growl'
+  gem 'guard-bundler'
+  gem 'guard-cucumber'
+  gem 'guard-haml'
+  gem 'guard-livereload'
+  gem 'guard-rails'
+  gem 'guard-rspec'
+  gem 'guard-spork'
 end
 
 group :test do

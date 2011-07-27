@@ -1,5 +1,5 @@
 Freeject::Application.routes.draw do
-  match "dashboard", to: "pages#dashboard"
+  match "dashboard", :to => "pages#dashboard"
   devise_for :users
   resources :projects do
     resources :stories

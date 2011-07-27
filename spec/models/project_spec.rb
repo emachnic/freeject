@@ -31,8 +31,8 @@ describe Project do
   
   it "should have stories" do
     project = Factory(:project)
-    project.stories << Factory(:story, title: "Foo", story_type: "bar",
-      description: "Story description", project: project)
+    project.stories << Factory(:story, :title => "Foo", :story_type => "bar",
+      :description => "Story description", :project => project)
     project.should have(1).stories
     project.stories.last.project_id.should equal(project.id)
   end

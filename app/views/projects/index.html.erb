@@ -16,7 +16,7 @@
       <td><%= p.description %></td>
       <td><%= link_to 'Show', p %></td>
       <td><%= link_to 'Edit', edit_project_path(p) %></td>
-      <td><%= link_to 'Destroy', p, confirm: 'Are you sure?', method: :delete %></td>
+      <td><%= link_to 'Destroy', p, :confirm => 'Are you sure?', :method => :delete %></td>
     </tr>
   <% end %>
 <% end %>

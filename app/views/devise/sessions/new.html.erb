@@ -3,24 +3,24 @@
   <section id='login_box'>
     <header><h2>Login</h2></header>
     <section>
-      <%= form_for(resource, :as => resource_name, :url => session_path(resource_name), html: {class: "vertical_form"}) do |f| %>
+      <%= form_for(resource, :as => resource_name, :url => session_path(resource_name), :html => {:class => "vertical_form"}) do |f| %>
         <ul>
           <li>
             <%= f.label :username %>
-            <%= f.text_field :username, class: "requiredfield" %>
+            <%= f.text_field :username, :class => "requiredfield" %>
           </li>
           <li>
             <%= f.label :password %>
-            <%= f.password_field :password, class: "requiredfield" %>
+            <%= f.password_field :password, :class => "requiredfield" %>
           </li>
           <li>
             <% if devise_mapping.rememberable? -%>
-              <%= f.check_box :remember_me, class: "obj_left" %><%= f.label :remember_me %>
+              <%= f.check_box :remember_me, :class => "obj_left" %><%= f.label :remember_me %>
             <% end -%>
           </li>
           <li>
-            <%= f.submit "Sign in", class: "blue styled_button" %>
-            <%= link_to "Forgot password?", new_password_path(resource_name), class: "grey styled_button" %>
+            <%= f.submit "Sign in", :class => "blue styled_button" %>
+            <%= link_to "Forgot password?", new_password_path(resource_name), :class => "grey styled_button" %>
           </li>
         </ul>
       <% end %>

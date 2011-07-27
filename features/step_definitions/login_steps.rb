@@ -1,5 +1,5 @@
 Given /^a User with username "([^"]*)"$/ do |username|
-  @user = Factory(:user, username: username)
+  @user = Factory(:user, :username => username)
 end
 
 When /^I login successfully$/ do
