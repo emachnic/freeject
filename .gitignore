@@ -4,3 +4,5 @@ log/*.log
 tmp/
 .DS_Store
 *.rbc
+.sass_cache
+.sass_cache/*
